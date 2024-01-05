@@ -6,8 +6,8 @@ enableRobotsTXT: true
 
 params:
     env: "production"
-    defaultTheme: auto
-
+    defaultTheme: light
+    disableThemeToggle: true
     author: Me
     description: "My blog"
     ShowToc: false
