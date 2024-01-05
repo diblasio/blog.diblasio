@@ -1,0 +1,19 @@
+baseURL: "/"
+languageCode: "en-us"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+
+params:
+    env: "production"
+    defaultTheme: auto
+
+    author: Me
+    description: "My blog"
+    ShowToc: false
+    
+menu:
+  main:
+    - identifier: "posts"
+      name: "posts"
+      url: "/posts/"
