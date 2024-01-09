@@ -8,12 +8,19 @@ params:
     env: "production"
     defaultTheme: light
     disableThemeToggle: true
-    author: Me
+    author: "Me"
     description: "My blog"
     ShowToc: false
-    
+    imageCdn: "http://cdn.diblasio.net/static/images"
+
 menu:
   main:
     - identifier: "posts"
       name: "posts"
       url: "/posts/"
+    - identifier: "about"
+      name: "about"
+      url: "/about/"
+    - identifier: "tags"
+      name: "tags"
+      url: "/tags/"

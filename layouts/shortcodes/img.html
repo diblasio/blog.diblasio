@@ -1,0 +1,15 @@
+{{ $imageCdn := .Site.Params.imageCdn }}
+{{ $imageName := .Get 0 }}
+{{ $altText := .Get 1 }}
+
+{{ if not $altText }}
+    {{/* Default alt text if none provided */}}
+    {{ $altText = "Image" }}
+{{ end }}
+
+{{ if $imageName }}
+    <img src="{{ $imageCdn }}/{{ $imageName | urlize }}" alt="{{ $altText }}">
+{{ else }}
+    <!-- Handle the error: no image name provided -->
+    <p>Error: No image name provided for the shortcode.</p>
+{{ end }}

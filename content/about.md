@@ -1,10 +1,9 @@
 ---
-title: "Hello World"
-date: 2024-01-05T11:04:49+01:00
+title: "About"
+date: 2024-01-05T13:09:24+01:00
 # weight: 
 # aliases: []
 tags: []
-# author: ["Author1", "Author2"] # for multiple authors
 showToc: true
 TocOpen: false
 draft: false
@@ -28,4 +27,4 @@ cover:
     hidden: false # only hide on current single page
 ---
 
-This is just some first post to show you (and myself) that this thing is working. I plan on sporatically posting stuff here so stay tuned. 
+Principal Engineer by day, bass-strumming, Fuji-clicking bookworm by night. I cook mean pizzas, geek out over tech, and might bake a cake too!
