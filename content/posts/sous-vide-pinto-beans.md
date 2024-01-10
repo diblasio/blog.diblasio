@@ -31,19 +31,22 @@ cover:
     hidden: false # only hide on current single page
 ---
 
-As a transplanted Texan native living in Netherlands, I've been missing good TexMex style pinto beans. Of course we can get them in a can, or pressure cook them, however, I wanted to try something new and decided to try to sous vide them. The folks at [Polyscience Culinary][polyscience-link] suggest a broad range for cooking legumes sous vide, and [Anova Culinary][anova-link] offers their take on no-soak beans. Striking a balance between these recommendations, I landed on what felt like a culinary safe zone with 87°C @ 6 hours. Here's how I did it:
+As a transplanted Texan native living in Netherlands, I've been missing good TexMex style pinto beans. Of course we can get them in a can, or pressure cook them, however, I wanted to try something new and decided to try to sous vide them. The folks at [Polyscience Culinary][polyscience-link] suggest a broad range for cooking legumes sous vide, and [Anova Culinary][anova-link] offers their take on no-soak beans. Striking a balance between these recommendations, I decided to take a middle path, opting for the traditional approach of soaking my beans overnight, which is thought to help with digestibility and even cooking. Then, I cooked them at a precise 87°C for 6 hours, aiming for that perfect creamy texture.
+
+Here's how I prepared my sous vide pinto beans:
 
 **Ingredients**
-- 173 grams (1 cup) dried pinto beans
+- 173 grams (1 cup) dried pinto beans, soaked overnight in water
 - 1/2 a medium red onion, cut in half
 - 3 cloves of garlic, smashed and peeled
 - 1 bay leaf (remember it next time!)
 
 **Instructions**
-1. Preheat your sous vide machine to 87°C.
-2. Place the beans, onion, garlic, and bay leaf in a large glass jar, sealing it tightly.
-3. Submerge the jar in the water bath and let it cook for 6 hours.
-4. Carefully remove the jar, open it, and serve the beans with your favorite TexMex accompaniments.
+1. After soaking the beans overnight, drain and rinse them in fresh water.
+2. Preheat your sous vide machine to 87°C.
+3. Place the beans, onion, garlic, and bay leaf in a large glass jar, sealing it tightly.
+4. Submerge the jar in the water bath and let it cook for 6 hours.
+5. Carefully remove the jar, open it, and serve the beans with your favorite TexMex accompaniments.
 
 {{< img "souvide-beans.jpeg" "An image showing a jar of pinto beans submerged in a sous vide water bath. The beans appear tender and well-cooked, visible through the clear glass jar, which is sealed with a metal clamp-down lid. Bubbles cling to the sides of the jar, indicating the cooking process. The water bath container is placed on a kitchen countertop, with a white towel underneath it and kitchen tiles in the background." >}}
 
