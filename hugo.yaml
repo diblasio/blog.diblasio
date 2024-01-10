@@ -11,7 +11,7 @@ params:
     author: "Me"
     description: "My blog"
     ShowToc: false
-    imageCdn: "http://cdn.diblasio.net/static/images"
+    imageCdn: "https://cdn.diblasio.social/static/images"
 
 menu:
   main:
