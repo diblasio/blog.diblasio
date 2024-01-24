@@ -47,6 +47,10 @@ Once m3u was done I learned [Soundiiz.com](https://soundiiz.com/) also accepts X
 
 {{< img "playlist_converter_ui_design.png" "A user interface design for a web application featuring a drag-and-drop upload area. The interface includes a prominent button labeled 'Convert to XSFP' and instructional text below that reads 'Drop JSPF file here or click to upload. Convert your playlist to M3U or XSPF format." >}}
 
+So far so good on my goal:
+
+{{< img "listening_activity_chart_2002-2024.png" "Bar chart displaying listening activity from 2002 to 2024 with a total of 14410 listens and an average of 627 listens per year." >}}
+
 Take a look at the app over at https://jspfconvert.pages.dev/. And if you're curious about the code behind it, feel free to dive into the GitHub repo at [diblasio/jspfconvert](https://github.com/diblasio/jspfconvert). 
 
 Cheers!
