@@ -17,7 +17,7 @@ params:
         favicon16x16: "https://cdn.diblasio.social/static/images/favicon-16x16.png"
         favicon32x32: "https://cdn.diblasio.social/static/images/favicon-32x32.png"
         apple_touch_icon: "https://cdn.diblasio.social/static/images/apple-touch-icon.png"
-    ShowFullTextinRSS: true
+    ShowFullTextinRSS: false
 menu:
   main:
     - identifier: "posts"
