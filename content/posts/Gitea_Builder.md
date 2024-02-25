@@ -1,6 +1,6 @@
 ---
 title: "Gitea Actions for Docker Builds"
-date: 2024-02-22T19:35:38+01:00
+date: 2024-02-25T16:35:38+01:00
 # weight: 
 # aliases: []
 tags: ["Gitea", "Docker"]
