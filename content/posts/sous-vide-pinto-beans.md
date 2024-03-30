@@ -54,7 +54,7 @@ Here's how I prepared my sous vide pinto beans:
 
 {{< img "enchiladas-beans-rice.jpg" "A close-up image of a plated meal, showing a generous portion of sous vide pinto beans alongside golden-brown Mexican rice and a cheese-covered enchilada. The pinto beans are plump and appear tender, nestled in a savory sauce. The enchilada is smothered in melted cheese and browned to perfection, and the rice is speckled with flecks of green herbs. The dish is served on a white plate set against a dark-toned background, creating an inviting contrast that emphasizes the vibrant colors of this TexMex meal." >}}
 
-Overall I'd say they turned out great. Super creamy and worked perfectly with some home made salsa. Next time I'll try the 1% salt solution and try to remember the bay leaf. 
+Overall I'd say they turned out great. Super creamy and worked perfectly with some home made salsa. 
 
 [polyscience-link]: https://www.recipes.polyscienceculinary.com/recipe/master-technique-cooking-legumes-sous-vide/
 [anova-link]: https://recipes.anovaculinary.com/recipe/sous-vide-no-soak-beans
