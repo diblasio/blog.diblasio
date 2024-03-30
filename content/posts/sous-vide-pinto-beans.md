@@ -39,7 +39,7 @@ Here's how I prepared my sous vide pinto beans:
 - 173 grams (1 cup) dried pinto beans, soaked overnight in water 
 - 1/2 a medium red onion, cut in half
 - 3 cloves of garlic, smashed and peeled
-- 1 bay leaf (remember it next time!)
+- 1 bay leaf
 
 **Instructions**
 1. Prepare a 1% saltwater solution for soaking the beans. To do this, dissolve 5 grams of salt in 495 grams of water.
