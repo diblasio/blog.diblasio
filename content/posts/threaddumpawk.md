@@ -84,10 +84,6 @@ awk '/^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$/ { if(td) close(ou
 
 ## Analyzing the Extracted Thread Dumps
 
-In a sea of different tools for troubleshooting Java application performance—such as [Java Flight Recorder (JFR)](https://docs.oracle.com/javacomponents/jmc-5-4/jfr-runtime-guide/about.htm), [VisualVM](https://visualvm.github.io/), and various profilers—sometimes in production environments, you can't make any changes at all and must resort to using `kill -3`. The `catalina.out` file usually contains other runtime logging, making it cumbersome to isolate thread dumps manually. This script helps by pulling out just the thread dumps into individual files for analysis.
-
-### Comprehensive Analysis Tools
-
 For comprehensive analysis of the extracted thread dumps, you can use the following tools:
 
 - **[FastThread](https://fastthread.io/):** This tool provides in-depth insights and visualizations, helping you pinpoint performance issues and deadlocks more effectively. Simply upload the extracted thread dump files for analysis.
