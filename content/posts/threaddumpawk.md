@@ -49,9 +49,13 @@ In production environments where you may not have access to tools like `jstack`,
    kill -3 <PID>
     ```
 
+## Extracting Thread Dumps with AWK
+
+The `catalina.out` file usually contains other runtime logging, making it cumbersome to isolate thread dumps manually. To streamline the extraction process, you can use the following AWK script. This script identifies and isolates thread dumps into separate files, making it easier to analyze them.
+
 ## Script Overview
 
-Below is the AWK script that accomplishes this task. It’s designed to optimize file handling operations, making it fast even with very large catalina files.
+Below is the AWK script that accomplishes this task. It’s designed to optimize file handling operations, making it fast even with very large `catalina.out` files.
 
 ```bash
 awk '/^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$/ {
