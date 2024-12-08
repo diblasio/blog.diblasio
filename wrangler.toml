@@ -1,9 +1,0 @@
-[build]
-  command = "hugo"
-  publish = "public"
-
-[env.production]
-  HUGO_VERSION = "0.139.0"
-
-[pages]
-  build_output_dir = "public"
