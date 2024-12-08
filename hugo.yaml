@@ -18,6 +18,13 @@ params:
         favicon32x32: "https://cdn.diblasio.social/static/images/favicon-32x32.png"
         apple_touch_icon: "https://cdn.diblasio.social/static/images/apple-touch-icon.png"
     ShowFullTextinRSS: false
+    mainSections: ["posts"]
+    photoBaseURL: "https://cdn.diblasio.social/static/photos/"
+
+outputs:
+  home: ["HTML", "RSS"]
+  section: ["HTML", "RSS"]
+
 menu:
   main:
     - identifier: "posts"
@@ -32,7 +39,11 @@ menu:
       name: "tags"
       url: "/tags/"
       weight: 3
+    - identifier: "photos"
+      name: "photos"
+      url: "/photos/"
+      weight: 4
     - identifier: "rss"
       name: "rss"
       url: "https://blog.diblasio.social/index.xml"
-      weight: 4
+      weight: 5

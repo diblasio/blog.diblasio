@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <head>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <article>
+    <h1>{{ .Title }}</h1>
+
+    {{ $page := . }} <!-- Save the current page context -->
+
+    {{ with .Params.image }}
+      <figure>
+        <img src="{{ . }}" alt="{{ $page.Params.alt_text | default "No description available" }}">
+      </figure>
+    {{ else }}
+      <p><em>No image available for this photo.</em></p>
+    {{ end }}
+
+    {{ with .Params.description }}
+      <p>{{ . }}</p>
+    {{ end }}
+
+    {{ with .Params.exif_data }}
+      <section class="exif-box">
+        {{ . }}
+      </section>
+    {{ end }}
+  </article>
+{{ end }}

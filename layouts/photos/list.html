@@ -1,0 +1,15 @@
+{{ define "main" }}
+<head>
+  <link rel="stylesheet" href="/style.css">
+</head>  
+<section class="photo-gallery">
+  {{ range .Pages }}
+    <a href="{{ .Permalink }}" class="gallery-item">
+      {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Params.alt_text | default "No description available" }}" loading="lazy">
+      {{ else }}
+        <img src="/photos/default.jpg" alt="Default photo" loading="lazy">
+      {{ end }}
+    </a>
+  {{ end }}
+{{ end }}

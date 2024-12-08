@@ -99,6 +99,6 @@ jobs:
 ## 🎉
 
 Here's what we'll see once everything is done:
-{{< img "gitea_roon.png" "" >}}
+{{< img "gitea_roon.png" "Screenshot of a continuous integration workflow result on GitHub Actions. The workflow is named 'simplification part 3' with a green checkmark indicating success. There are two completed jobs listed: 'build (amd64)' with a duration of 13 minutes and 11 seconds, and 'build (arm64)' with a duration of 12 minutes and 43 seconds. The 'build (amd64)' job has a detailed list of steps with green checkmarks indicating success for each step: 'Set up job', 'Login to Docker Hub', 'Checkout repository', 'Set up Docker Buildx', 'Get base image digest', 'Get current date and time', 'Build Docker image', and 'Complete job'. The step 'Build Docker image' took the longest time at 11 minutes and 59 seconds." >}}
 
 Hope this helps someone out there 😄.
