@@ -30,3 +30,18 @@
   text-align: center;
   margin: 0 auto;
 }
+
+.post-date {
+  font-size: 0.9em;
+  color: #888;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.post-title {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+  text-align: left;
+  padding: 5px 0 20px 0;
+}
