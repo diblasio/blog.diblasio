@@ -12,4 +12,30 @@
       {{ end }}
     </a>
   {{ end }}
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const grid = document.querySelector('.photo-gallery');
+    const items = grid.querySelectorAll('.gallery-item');
+    const rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows'));
+    const rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('gap'));
+
+    const resizeAllGridItems = () => {
+      items.forEach(item => {
+        const img = item.querySelector('img');
+        const rowSpan = Math.ceil((img.getBoundingClientRect().height + rowGap) / (rowHeight + rowGap));
+        item.style.gridRowEnd = `span ${rowSpan}`;
+      });
+    };
+
+    items.forEach(item => {
+      const img = item.querySelector('img');
+      img.addEventListener('load', resizeAllGridItems);
+    });
+
+    window.addEventListener('resize', resizeAllGridItems);
+    resizeAllGridItems();
+  });
+</script>
 {{ end }}
