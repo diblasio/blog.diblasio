@@ -2,7 +2,7 @@ baseURL: "https://blog.diblasio.social"
 languageCode: "en-us"
 theme: "PaperMod"
 copyright: "© David Di Blasio Jr."
-
+title: "David Di Blasio Jr."
 enableRobotsTXT: true
 
 params:
