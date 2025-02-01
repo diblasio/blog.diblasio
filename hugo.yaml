@@ -48,3 +48,7 @@ menu:
       name: "rss"
       url: "https://blog.diblasio.social/index.xml"
       weight: 5
+    - identifier: "Mastodon"
+      name: "Mastodon"
+      url: "https://diblasio.social/@david"
+      weight: 6
