@@ -1,0 +1,15 @@
+{{ define "main" }}
+<head>
+    <link rel="stylesheet" href="/style.css">
+  </head> 
+    <section class="journal-feed">
+        {{ range .Pages }}
+            <article class="journal-entry">
+                <a href="{{ .Permalink }}" class="journal-date">{{ .Date.Format "2006-01-02 15:04" }}</a>
+                <div class="journal-content">
+                    {{ .Content }}
+                </div>
+            </article>
+        {{ end }}
+    </section>
+{{ end }}
