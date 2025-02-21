@@ -5,10 +5,15 @@
 <section class="photo-gallery">
   {{ range .Pages }}
     <a href="{{ .Permalink }}" class="gallery-item">
-      {{ with .Params.image }}
-        <img src="{{ . }}" alt="{{ $.Params.alt_text | default "No description available" }}" loading="lazy">
+      {{ $page := . }} <!-- Save the current page context -->
+      {{ with $page.Params.thumbnail }}
+        <img src="{{ . }}" alt="{{ $page.Params.alt_text | default "No description available" }}" loading="lazy">
       {{ else }}
-        <img src="/photos/default.jpg" alt="Default photo" loading="lazy">
+        {{ with $page.Params.image }}
+          <img src="{{ . }}" alt="{{ $page.Params.alt_text | default "No description available" }}" loading="lazy">
+        {{ else }}
+          <img src="/photos/default.jpg" alt="Default photo" loading="lazy">
+        {{ end }}
       {{ end }}
     </a>
   {{ end }}

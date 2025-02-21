@@ -1,29 +1,29 @@
 {{ define "main" }}
-  <head>
-    <link rel="stylesheet" href="/style.css">
-  </head>
-  <article>
-    <h1 class="post-date">{{ .Date.Format "January 2, 2006" }}</h1>
-    <h1 class="post-title">{{ .Title }}</h1>
+<head>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<article>
+  <h1 class="post-date">{{ .Date.Format "January 2, 2006" }}</h1>
+  <h1 class="post-title">{{ .Title }}</h1>
 
-    {{ $page := . }} <!-- Save the current page context -->
+  {{ $page := . }} <!-- Save the current page context -->
 
-    {{ with .Params.image }}
-      <figure>
-        <img src="{{ . }}" alt="{{ $page.Params.alt_text | default "No description available" }}">
-      </figure>
-    {{ else }}
-      <p><em>No image available for this photo.</em></p>
-    {{ end }}
+  {{ with $page.Params.image }}
+    <figure>
+      <img src="{{ . }}" alt="{{ $page.Params.alt_text | default "No description available" }}">
+    </figure>
+  {{ else }}
+    <p><em>No image available for this photo.</em></p>
+  {{ end }}
 
-    {{ with .Params.description }}
-      <p>{{ . }}</p>
-    {{ end }}
+  {{ with $page.Params.description }}
+    <p>{{ . }}</p>
+  {{ end }}
 
-    {{ with .Params.exif_data }}
-      <section class="exif-box">
-        {{ . }}
-      </section>
-    {{ end }}
-  </article>
+  {{ with $page.Params.exif_data }}
+    <section class="exif-box">
+      {{ . }}
+    </section>
+  {{ end }}
+</article>
 {{ end }}
